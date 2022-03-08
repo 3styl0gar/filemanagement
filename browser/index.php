@@ -25,8 +25,8 @@ $use_auth = true;
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
-    'admin' => password_hash('lX605eSXSG12NY7oHG9b', PASSWORD_DEFAULT),
-    'blog' => password_hash('123!blogblog123!', PASSWORD_DEFAULT)
+    'admin' => password_hash('', PASSWORD_DEFAULT),
+    'blog' => password_hash('', PASSWORD_DEFAULT)
 );
 
 //set application theme
